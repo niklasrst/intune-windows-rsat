@@ -2,6 +2,8 @@
 
 This repo contains a script to deploy the Windows RSAT tools using `.cab` files to Windows 11 clients.
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/niklasrst/intune-windows-rsat/total)
+
 ## Prerequisites
 Download the current `mul_languages_and_optional_features_for_windows_11` ISO (available in MSDN), containing the `.cab` files for optional features and languages.
 Copy the following files for the language (in this example `en-us`) that you want to deploy into the package folder and create a `.INTUNEWIN` file with them and the `.ps1` script:
